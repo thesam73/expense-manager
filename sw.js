@@ -31,7 +31,7 @@ self.addEventListener("fetch", function(event) {
         var fetchPromise = fetch(event.request).then(function(networkResponse) {
           // cache same host files only
           if (
-            requestURL.hostname === "mitul45.github.io" ||
+            requestURL.hostname === "thesam73.github.io" ||
             requestURL.hostname === "localhost"
           )
             cache.put(event.request, networkResponse.clone());
