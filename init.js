@@ -39,7 +39,7 @@
   */
   function initClient() {
     const CLIENT_ID =
-      "753409252872-4rnac89i30nabj3j2p87llrjfhitbikr.apps.googleusercontent.com";
+      "774962618318-m1ucpfrnjca07o6kl482gfo180kcmjr1.apps.googleusercontent.com";
     const DISCOVERY_DOCS = [
       "https://sheets.googleapis.com/$discovery/rest?version=v4",
       "https://www.googleapis.com/discovery/v1/apis/drive/v3/rest"
@@ -97,7 +97,7 @@
         message: "Cannot find the sheet!",
         actionHandler: () => {
           window.open(
-            "https://github.com/mitul45/expense-manager/blob/master/README.md#how-to-get-started",
+            "https://github.com/thesam73/expense-manager/blob/master/README.md#how-to-get-started",
             "_blank"
           );
         },
